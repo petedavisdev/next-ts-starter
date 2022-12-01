@@ -6,7 +6,9 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"newcomponent": "npx hygen component new",
+		"newpage": "npx hygen page new"
 	},
 	"dependencies": {
 		"@types/node": "18.11.9",
