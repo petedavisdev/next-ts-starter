@@ -18,6 +18,19 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+## Generate Pages and Components
+The `_templates` folder contains code used to generate new pages and components. This improves consistency and saves some typing.
+
+```bash
+npm run newpage
+```
+
+```bash
+npm run newcomponent
+```
+
+The first time you run one of these scripts, you will need to enter `y` to download [hygen](https://www.hygen.io/), which is the code generator package.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
